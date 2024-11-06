@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: var(--seccolour);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    :root {
+        --primarycolour: rgb(49, 49, 241);
+        --seccolour: aqua;
+    }
+
+    .navbar {
+        background-color: var(--primarycolour);
+        padding: 12px 0;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    ul li {
+        list-style: none;
+        margin: 20px;
+        padding: 30px;
+        display: inline;
+        font-style: italic;
+        font-weight: bolder;
+    }
+
+    ul li a {
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+    .box1 {
+        display: inline-block;
+        height: 444px;
+        width: 444px;
+        padding: 50px 20px;
+        margin: 80px 150px;
+        text-align: center;
+        background-color: rgb(214, 30, 187);
+        border: 2px solid rgb(82, 5, 103);
+    }
+
+    .box2 {
+        display: inline-block;
+        height: 444px;
+        width: 444px;
+        padding: 50px 20px;
+        margin: 80px 80px;
+        text-align: center;
+        background-color: rgb(33, 217, 33);
+        border: 2px solid rgb(5, 103, 38);
+    }
+
+    .boxy {
+        height: 44px;
+        width: 1044px;
+        padding: 50px 20px;
+        margin: 80px 200px;
+        border-radius: 15px;
+        text-align: center;
+        background-color: rgb(207, 253, 57);
+        border: 2px solid rgb(133, 101, 7);
+    }
+
+    .stamp {
+        margin: 11px;
+        display: flex;
+        justify-content: flex-end;
+        overflow: auto;
+    }
+
+    img {
+        position: fixed;
+        bottom: 100px;
+    }
+
+    footer {
+        background-color: var(--primarycolour);
+        padding: 12px 0;
+        position: sticky;
+        bottom: 0;
+        z-index: 10;
+    }
+
+    .footy {
+        text-align: center;
+        color: antiquewhite;
+    }
+
+    ::selection {
+        color: aqua;
+        background-color: black;
+    }
+</style>
+
+<body>
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="\">HOME</a></li>
+                <li><a href="\">ABOUT</a></li>
+                <li><a href="\">CONTACT</a></li>
+                <li><a href="\">MORE INFO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="boxes">
+        <div class="box1">HELLO THERE!!</div>
+        <div class="box2">HI MATE!!</div>
+    </div>
+    <div class="boxy">WELCOME TO MY WEB</div>
+    <div class="stamp">
+        <img src="https://ddesignplus.com/wp-content/uploads/2014/12/Circular-Logo-1022x1024.png" alt="logo"
+            height="70">
+    </div>
+    <footer>
+        <div class="footy">THIS IS FOOTER</div>
+    </footer>
+</body>
+
+</html>
